@@ -18,5 +18,12 @@
         "psr-4": {
             "ThekDesign\\ApiExceptionCatcher\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ThekDesign\\ApiExceptionCatcher\\ExceptionProvider"
+            ]
+        }
     }
 }
