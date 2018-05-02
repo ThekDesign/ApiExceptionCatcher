@@ -1,0 +1,22 @@
+{
+    "name": "thekdesign/api-exception-catcher",
+    "keywords": ["api", "exception"],
+    "description": "transform dingo/api exception to laravel exception",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ThekDesign",
+            "email": "kevin830802@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThekDesign\\ApiExceptionCatcher\\": "src"
+        }
+    }
+}
